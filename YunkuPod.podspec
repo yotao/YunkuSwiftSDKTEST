@@ -30,7 +30,7 @@ DESC
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Frameworks/iOS/**/*'
+  s.source_files = 'Frameworks/iOS/*'
   
   # s.resource_bundles = {
   #   'YunkuPod' => ['YunkuPod/Assets/*.png']
