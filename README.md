@@ -7,11 +7,24 @@ Robots: noindex,nofollow
 */
 
 # 够快云库Swift SDK使用说明
+[![CI Status](http://img.shields.io/travis/yotao/YunkuPod.svg?style=flat)](https://travis-ci.org/yotao/YunkuPod)
+[![Version](https://img.shields.io/cocoapods/v/YunkuPod.svg?style=flat)](http://cocoapods.org/pods/YunkuPod)
+[![License](https://img.shields.io/cocoapods/l/YunkuPod.svg?style=flat)](http://cocoapods.org/pods/YunkuPod)
+[![Platform](https://img.shields.io/cocoapods/p/YunkuPod.svg?style=flat)](http://cocoapods.org/pods/YunkuPod)
 
 版本：1.0.1
 
 创建：2015-06-23
 修改时间：2016-03-03
+
+## Installation
+
+YunkuPod is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'YunkuPod'
+```
 
 ## 引用 
 建议将项目build产生的**YunkuSwiftSDK.framework**文件引用进项目，或者将项目作为Library Project 引入,如果是 iOS Application，使用 Headers/iOS 文件夹下的头文件，如果是 OSX Application
