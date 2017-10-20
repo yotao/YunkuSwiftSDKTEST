@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YunkuPod'
-  s.version          = '1.0.1'
-  s.summary          = '第一次提交的测试'
+  s.version          = '1.0.3'
+  s.summary          = '第三次提交的测试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-这仅仅是第一次提交的测试
+这仅仅是第三次提交的测试
 DESC
 
   s.homepage         = 'https://github.com/yotao/YunkuSwiftSDKTEST'
@@ -26,16 +26,14 @@ DESC
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yotao' => 'yotao@qq.com' }
   s.source           = { :git => 'https://github.com/yotao/YunkuSwiftSDKTEST.git', :tag => s.version.to_s }
-  s.social_media_url = 'http://www.gokuai.com'
+#  s.social_media_url = 'http://www.gokuai.com'
 
   s.ios.deployment_target = '8.0'
-  s.public_header_files = 'Headers/iOS/YunkuSwiftSDK.h'
-  s.source_files = 'Headers/iOS/YunkuSwiftSDK.h'
-# s.frameworks = 'Frameworks/iOS/*.frameworks'
+#  s.public_header_files = 'Headers/iOS/YunkuSwiftSDK.h'
+  s.source_files = 'Frameworks/**/*'
+#  s.frameworks = 'YunkuSwiftSDK'
 
-   s.resource_bundles = {
-     'YunkuPod' => ['Frameworks/iOS']
-   }
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
