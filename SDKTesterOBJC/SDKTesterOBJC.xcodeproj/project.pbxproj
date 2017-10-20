@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2FD5FE1F99CC5A001B1C77 /* YunkuPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0C2FD5FC1F99CC5A001B1C77 /* YunkuPod.podspec */; };
+		0C2FD5FF1F99CC5A001B1C77 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0C2FD5FD1F99CC5A001B1C77 /* LICENSE */; };
+		0C2FD6011F99CC94001B1C77 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C2FD6001F99CC94001B1C77 /* README.md */; };
 		CAC64FFA1B39392100B4E5B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC64FF91B39392100B4E5B4 /* main.m */; };
 		CAC64FFD1B39392100B4E5B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC64FFC1B39392100B4E5B4 /* AppDelegate.m */; };
 		CAC650001B39392100B4E5B4 /* SDKTesterOBJC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAC64FFE1B39392100B4E5B4 /* SDKTesterOBJC.xcdatamodeld */; };
@@ -56,6 +59,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C2FD5FC1F99CC5A001B1C77 /* YunkuPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YunkuPod.podspec; path = ../YunkuPod.podspec; sourceTree = "<group>"; };
+		0C2FD5FD1F99CC5A001B1C77 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C2FD6001F99CC94001B1C77 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CAC64FF41B39392100B4E5B4 /* SDKTesterOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKTesterOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC64FF81B39392100B4E5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAC64FF91B39392100B4E5B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 		CAC64FEB1B39392100B4E5B4 = {
 			isa = PBXGroup;
 			children = (
+				0C2FD6001F99CC94001B1C77 /* README.md */,
+				0C2FD5FD1F99CC5A001B1C77 /* LICENSE */,
+				0C2FD5FC1F99CC5A001B1C77 /* YunkuPod.podspec */,
 				CAC65E701C8803970005D36D /* CommonCrypto.framework */,
 				CAC65E6C1C88020A0005D36D /* YunkuSwiftSDK.framework */,
 				CAC64FF61B39392100B4E5B4 /* SDKTesterOBJC */,
@@ -243,9 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2FD6011F99CC94001B1C77 /* README.md in Resources */,
 				CAC650061B39392100B4E5B4 /* Main.storyboard in Resources */,
 				CAC6500B1B39392100B4E5B4 /* LaunchScreen.xib in Resources */,
 				CAC650081B39392100B4E5B4 /* Images.xcassets in Resources */,
+				0C2FD5FE1F99CC5A001B1C77 /* YunkuPod.podspec in Resources */,
+				0C2FD5FF1F99CC5A001B1C77 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

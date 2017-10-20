@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YunkuPod'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YunkuPod.'
+  s.version          = '1.0.1'
+  s.summary          = '第一次提交的测试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+这仅仅是第一次提交的测试
+DESC
 
-  s.homepage         = 'https://github.com/yotao/YunkuPod'
+  s.homepage         = 'https://github.com/yotao/YunkuSwiftSDKTEST'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yotao' => 'yotao@qq.com' }
-  s.source           = { :git => 'https://github.com/yotao/YunkuPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yotao/YunkuSwiftSDKTEST.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YunkuPod/Classes/**/*'
+  s.source_files = 'Frameworks/iOS/**/*'
   
   # s.resource_bundles = {
   #   'YunkuPod' => ['YunkuPod/Assets/*.png']
