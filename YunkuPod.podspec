@@ -26,15 +26,16 @@ DESC
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yotao' => 'yotao@qq.com' }
   s.source           = { :git => 'https://github.com/yotao/YunkuSwiftSDKTEST.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'http://www.gokuai.com'
 
   s.ios.deployment_target = '8.0'
+  s.public_header_files = 'Headers/iOS/YunkuSwiftSDK.h'
+  s.source_files = 'Headers/iOS/YunkuSwiftSDK.h'
+# s.frameworks = 'Frameworks/iOS/*.frameworks'
 
-  s.source_files = 'Frameworks/iOS/*'
-  
-  # s.resource_bundles = {
-  #   'YunkuPod' => ['YunkuPod/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'YunkuPod' => ['Frameworks/iOS']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
