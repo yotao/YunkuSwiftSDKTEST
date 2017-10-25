@@ -32,7 +32,7 @@ DESC
 #  s.public_header_files = 'Headers/iOS/YunkuSwiftSDK.h'
    s.source_files = 'YunkuSwiftSDK/YunkuSwiftSDK/Class/**/*'
 #  s.frameworks = 'YunkuSwiftSDK'
-# s.vendored_frameworks = 'Frameworks/iOS/YunkuSwiftSDK.framework','Frameworks/iOS/CommonCrypto.framework'
+  s.vendored_frameworks = 'Frameworks/iOS/CommonCrypto.framework'
 
 
 

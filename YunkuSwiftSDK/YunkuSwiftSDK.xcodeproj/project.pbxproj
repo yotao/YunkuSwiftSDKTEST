@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C05E8491FA08657003DBF7D /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC65E411C87E3EE0005D36D /* CommonCrypto.framework */; };
 		6B6E2B90B4A848A80ECAC682 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6B6E20C3DC679DFA94D328E9 /* .gitignore */; };
 		6B6E2C5B3D3EF3BCBB688A6B /* CRC32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6E22BC40E5DEB281F788AC /* CRC32.swift */; };
 		CA1427DD1B185A1800CC0302 /* YunkuSwiftSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1427DC1B185A1800CC0302 /* YunkuSwiftSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -111,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C05E8491FA08657003DBF7D /* CommonCrypto.framework in Frameworks */,
 				CAC65E2F1C87DB960005D36D /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
