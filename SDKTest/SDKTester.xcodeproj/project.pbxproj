@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3306DB1FA07A4C0052DEB1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0C3306D81FA07A4C0052DEB1 /* LICENSE */; };
+		0C3306DC1FA07A4C0052DEB1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C3306D91FA07A4C0052DEB1 /* README.md */; };
+		0C3306DD1FA07A4C0052DEB1 /* YunkuPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0C3306DA1FA07A4C0052DEB1 /* YunkuPod.podspec */; };
 		CA71D9FC1B1C32B6004E119A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71D9FB1B1C32B6004E119A /* AppDelegate.swift */; };
 		CA71D9FF1B1C32B6004E119A /* TestLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA71D9FD1B1C32B6004E119A /* TestLib.xcdatamodeld */; };
 		CA71DA011B1C32B6004E119A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71DA001B1C32B6004E119A /* ViewController.swift */; };
@@ -74,6 +77,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C3306D81FA07A4C0052DEB1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0C3306D91FA07A4C0052DEB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0C3306DA1FA07A4C0052DEB1 /* YunkuPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YunkuPod.podspec; sourceTree = "<group>"; };
 		CA71D9F61B1C32B6004E119A /* SDKTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA71D9FA1B1C32B6004E119A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA71D9FB1B1C32B6004E119A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 		CA71D9ED1B1C32B6004E119A = {
 			isa = PBXGroup;
 			children = (
+				0C3306D81FA07A4C0052DEB1 /* LICENSE */,
+				0C3306D91FA07A4C0052DEB1 /* README.md */,
+				0C3306DA1FA07A4C0052DEB1 /* YunkuPod.podspec */,
 				CABC04371B3A4B1100FCD0C3 /* YunkuSwiftSDK.xcodeproj */,
 				CA71D9F81B1C32B6004E119A /* SDKTester */,
 				CA71DA111B1C32B6004E119A /* SDKTester */,
@@ -299,7 +308,9 @@
 			files = (
 				CA71DA041B1C32B6004E119A /* Main.storyboard in Resources */,
 				CA71DA091B1C32B6004E119A /* LaunchScreen.xib in Resources */,
+				0C3306DB1FA07A4C0052DEB1 /* LICENSE in Resources */,
 				CA71DA061B1C32B6004E119A /* Images.xcassets in Resources */,
+				0C3306DD1FA07A4C0052DEB1 /* YunkuPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3306DC1FA07A4C0052DEB1 /* README.md in Sources */,
 				CA71DA011B1C32B6004E119A /* ViewController.swift in Sources */,
 				CAB037C91B332D8200E84824 /* OauthConfig.swift in Sources */,
 				CA71D9FC1B1C32B6004E119A /* AppDelegate.swift in Sources */,
