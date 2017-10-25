@@ -34,7 +34,7 @@ DESC
 #  s.frameworks = 'YunkuSwiftSDK'
   s.vendored_frameworks = 'Frameworks/iOS/CommonCrypto.framework'
 
-
+  s.libraries = "libz"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
