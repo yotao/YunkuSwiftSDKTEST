@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YunkuPod'
-  s.version          = '1.0.4'
-  s.summary          = '第四次提交的测试'
+  s.version          = '1.0.5'
+  s.summary          = '第五次提交的测试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-这仅仅是第三次提交的测试
+这仅仅是提交的测试
 DESC
 
   s.homepage         = 'https://github.com/yotao/YunkuSwiftSDKTEST'
@@ -30,9 +30,9 @@ DESC
 
   s.ios.deployment_target = '8.0'
 #  s.public_header_files = 'Headers/iOS/YunkuSwiftSDK.h'
-#  s.source_files = 'Frameworks/iOS/*'
+   s.source_files = 'YunkuSwiftSDK/YunkuSwiftSDK/Class/**/*'
 #  s.frameworks = 'YunkuSwiftSDK'
-  s.vendored_frameworks = 'Frameworks/iOS/YunkuSwiftSDK.framework','Frameworks/iOS/CommonCrypto.framework'
+# s.vendored_frameworks = 'Frameworks/iOS/YunkuSwiftSDK.framework','Frameworks/iOS/CommonCrypto.framework'
 
 
 

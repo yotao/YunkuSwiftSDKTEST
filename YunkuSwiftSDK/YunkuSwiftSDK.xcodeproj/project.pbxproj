@@ -42,7 +42,6 @@
 		CAC65E4B1C87E3EE0005D36D /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC65E411C87E3EE0005D36D /* CommonCrypto.framework */; };
 		CAC65E501C87E3EE0005D36D /* CommonCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC65E4F1C87E3EE0005D36D /* CommonCryptoTests.m */; };
 		CAC65E601C87E4210005D36D /* CommonCrypto.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CAC65E581C87E4210005D36D /* CommonCrypto.xcconfig */; };
-		CAC65E621C87E9C70005D36D /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC65E411C87E3EE0005D36D /* CommonCrypto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC65E621C87E9C70005D36D /* CommonCrypto.framework in Frameworks */,
 				CAC65E2F1C87DB960005D36D /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

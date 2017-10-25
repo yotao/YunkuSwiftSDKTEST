@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SDKTesterOBJC.xcscheme</key>
+		<key>SDKTester.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CA71D9F51B1C32B6004E119A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA71DA0D1B1C32B6004E119A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
